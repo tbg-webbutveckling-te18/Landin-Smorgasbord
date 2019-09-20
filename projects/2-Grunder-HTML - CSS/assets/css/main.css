@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 0, 255, 0.4);
+    
+}
+
+h1 {
+    color: #FFF;
+    font-size: 32px;
+}
+
+p {
+    font-style: italic;
+    letter-spacing
+}
+
+ul {
+    background-color: #000;
+    list-style-type: none;
+    padding: 0px;    
+}
+
+ul li {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000; /* x y blur color */
+}
+
+nav ul li a {
+    Color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px;
+}

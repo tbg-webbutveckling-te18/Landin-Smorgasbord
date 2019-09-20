@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+              charset="utf-8"
+              author="Linus Landin"
+              description="En beskrivning av min sida">
+        <title>Grunder HTML</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        </head>
+        <body>
+            <!-- Huvudrubrik 1-6 -->
+            <h1>Rubrik 1</h1>
+            <h2>Rubrik 2</h2>
+            <h3>Rubrik 3</h3>
+            <h6>Rubrik 6</h6>
+            
+            <!-- Brödtext / Löpande text -->
+            <p> Brödtext / Löpande text / Paragraf </p> 
+            
+            <!-- Punktlista (ul) med listobjekt (li)  -->
+            <ul>
+                <li>Listobjekt 1</li>
+                <li>Listobjekt 2</li>
+            </ul>
+            <!-- Bildelement med attribut -->
+            <img
+            src="assets/images/logo/dodgelogo.png" 
+            alt="The logo of Dodge" title="Dodge">
+            
+            <!-- Länk som öppnas i ny flik -->
+            <a href="http://inet.se" target="_blank">Till inet.se</a>
+            
+            <!-- Video -->
+        
+            <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/RSy23lF4tbM" 
+                    frameborder="0" allowfullscreen></iframe>
+        
+            <!-- Semantiska Behållare / Semantic Containers -->
+            <!-- header - Logotyp, rubrik, första intrycket -->
+            <header>
+                <h1>Welcome</h1>
+                <img src="#" alt="Företagets logotyp">
+            </header>
+            
+            <!-- nav - navigation container -->
+            <nav> 
+                <ul>
+                    <li><a href="#">Länknamn</a></li>
+                    <li><a href="#">Länknamn</a></li>
+                    <li><a href="#">Länknamn</a></li>
+                    <li><a href="#">Länknamn</a></li>
+                </ul>
+            </nav>
+            <!-- main - Container for main info on the page -->
+            <main>
+                 <!-- aside - Container for info on the side -->   
+                <aside></aside>
+                
+                <!-- Section - Container for various info  --> 
+                <section></section>
+                
+                <!-- article - Container for an entire article -->
+                <article>
+                    <header>
+                        <h1>Bloggrubrik</h1>
+                    </header> 
+                    <main>
+                        <section>
+                            <p>This article will cover...</p>
+                        </section>
+                    </main>       
+                </article>
+            </main>
+            <!-- footer - Container for info at the bottom -->
+            <footer>
+                <ul>
+                    <li><a href="#">Länk 1</a></li>
+                    <li><a href="#">Länk 2</a></li>
+                    <li><a href="#">Länk 3</a></li>
+                </ul>
+                
+                <ul>
+                    <li><a href="#">Yes</a></li>
+                    <li><a href="#">Yes</a></li>
+                    <li><a href="#">Yes</a></li>
+                </ul>
+            </footer>
+        </body>
+</html>
