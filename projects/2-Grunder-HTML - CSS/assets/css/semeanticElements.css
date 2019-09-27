@@ -1,0 +1,47 @@
+::selection {
+    background-color: orange;
+}
+
+::-webkit-scrollbar {
+
+}
+
+body {
+    background-color: #4bcffa;
+    margin: 0px;
+}
+
+section#wrapper { 
+    display: block; /* standard on most of the elements */
+    width: 300px; /* the widht of the container */
+    min-height: 300px; height: auto; /* height of the container */
+    
+    background-color: #0be881;
+    border: 1px solid #000 ; /* thickness style color */
+
+}
+
+section#wrapper p {
+    color: #fff;
+    border: 1px solid black;
+    margin-top: 0px;
+    padding: 5px 5px 5px 25px; /* top right bottom left */
+    text-align: center;
+
+}
+
+section.standardSection {
+    width: 200px;
+    height: 200px;
+    
+    background-color: #ef5777;
+    margin: 10px 0px; /* top/bottom left/right */
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px #000;
+    
+}
+
+section.standardSection img {
+    display: inline; /* a few elements have inline as standard */
+    
+}
