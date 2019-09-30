@@ -30,18 +30,35 @@ section#wrapper p {
 
 }
 
+section#standardSectionUnique {
+    margin-right: 0px;
+    background-color: #6969
+}
+
 section.standardSection {
     width: 200px;
     height: 200px;
     
     background-color: #ef5777;
-    margin: 10px 0px; /* top/bottom left/right */
+    margin: 10px auto; /* top/bottom left/right */
     border: 1px solid black;
     box-shadow: 1px 1px 1px #000;
     
 }
 
+section.standardChild {
+    width: 100%; /* 100% off of it's parent */
+    height: 50px;
+    
+    background-color: #ff9ff3;
+    border-bottom: 1px solid black;
+}
+
 section.standardSection img {
     display: inline; /* a few elements have inline as standard */
     
+}
+
+.highlighted:hover {
+    margin-top: 50px;
 }
