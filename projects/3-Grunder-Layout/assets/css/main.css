@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top left, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0px; 
+}
+
+section#wrapper {
+    border: 1px solid black;
+    width: 80%;
+    min-height: 550px;
+    
+    margin: auto; 
+}
+
+header {
+    height: 200px;
+    border: 1px solid White;
+}
+
+header img {
+   
+}
