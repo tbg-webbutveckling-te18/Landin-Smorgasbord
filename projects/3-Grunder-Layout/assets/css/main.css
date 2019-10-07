@@ -7,6 +7,7 @@ body {
 background: -webkit-linear-gradient(to top left, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0px; 
+    font-family: 'Roboto', sans-serif;
 }
 
 section#wrapper {
@@ -18,10 +19,43 @@ section#wrapper {
 }
 
 header {
+    display: flex;
+    justify-content: flex-start; /* main axis */
+    align-items: center; /* cross axis */
     height: 200px;
     border: 1px solid White;
 }
 
-header img {
-   
+header h1 {
+    color: white;
+    font-size: 85px;
+    margin: 0;
+    margin: 0 auto 0 auto;
+    
 }
+
+nav {
+    border: 1px solid yellow;
+}
+
+nav ul#mainNavigation {
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul#mainNavigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul#mainNavigation a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer; /* standard value */
+}
+
