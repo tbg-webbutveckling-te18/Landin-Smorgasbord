@@ -1,10 +1,10 @@
 html {
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
     background: #00416A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top left, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to top, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0px; 
     font-family: 'Roboto', sans-serif;
@@ -59,3 +59,47 @@ ul#mainNavigation a:hover {
     cursor: pointer; /* standard value */
 }
 
+main, main aside, section.mainInfo  {
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+}
+
+main {
+    display: flex;
+    min-height: 500px;
+}
+
+main aside {
+    flex: 1;
+}
+
+section.mainInfo {
+    flex: 2;
+}
+
+section.mainInfo img {
+    width: 20%
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.copyright {
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
