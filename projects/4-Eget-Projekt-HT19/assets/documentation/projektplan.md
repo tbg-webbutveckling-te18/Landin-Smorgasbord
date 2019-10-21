@@ -12,11 +12,11 @@ Underhållning/Information. Tanken är att man ska kunna kolla upp dom bästa sp
 # Målgrupp
 Hockeyintresserade. Både för män och kvinnor. Folk som bryr sig om nördiga stats.
 # Research och inhämtning av material
-
+https://www.eliteprospects.com/  Här kan man hitta alla stats om spelare och lag mm. 
 ## Beskrivning av webbplatsen
 
 # Innehåll på webbplatsen i stora drag -> känslan som den försöker förmedla.
-
+Hemsidan ska vara strukturell och "clean" eftersom att sidan ska handla om statistik och det ska vara lätt att hitta. Den ska inte vara flashig eller kännas särskilt speciell. 
 # Design/Form
 * Skapa en sitemap för webbplatsen
 * Skissa wireframes 
