@@ -18,16 +18,15 @@ https://www.eliteprospects.com/  Här kan man hitta alla stats om spelare och la
 # Innehåll på webbplatsen i stora drag -> känslan som den försöker förmedla.
 Hemsidan ska vara strukturell och "clean" eftersom att sidan ska handla om statistik och det ska vara lätt att hitta. Den ska inte vara flashig eller kännas särskilt speciell. 
 # Design/Form
-* Skapa en sitemap för webbplatsen
-* Skissa wireframes 
-    * Exempel: Startsida
+* Se Sitemap.PNG
+* Se Wireframe.png
 * Beskriv idén med kompositionen på de olika sidorna 
-    * logotyper
-    * Färger
-        * Body bgcolor
-        * Header 
-        * Font
-        * Osv… 
+    * logotyper:
+    Jag har tänkt att ha en logotyp som hemknapp uppe i vänstra hörnet
+    * Färger:
+    Vit/Grå bakgrund.
+    På navigationbaren tänker jag mig någon blå färg
+        
 
 
 # Text
