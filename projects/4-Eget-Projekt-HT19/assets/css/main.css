@@ -26,8 +26,27 @@ nav ul {
     border: solid 2px;
     padding: 0px;
     list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 40px;
+    align-items: center;
+}
+
+nav ul li {
+    background-color: white;
+    display: flex;
+    width: 225px;
+    justify-content: center;
 }
 
 nav li a {
     text-decoration: none;
+    display: block;
+
+}
+
+nav ul li #liSteals {
+
 }
