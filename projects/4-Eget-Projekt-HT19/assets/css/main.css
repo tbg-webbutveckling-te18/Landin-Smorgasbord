@@ -62,7 +62,7 @@ nav ul li #liSteals {
 
 }
 
-aside {
+.News {
     border: solid 2px;
     margin: 100px auto;
     height: 400px;
@@ -73,21 +73,18 @@ aside {
     
 }
 
-aside h2 {
-    font-size: 
-}
-
-section h2 {
+.First h2 {
     display: flex;
     justify-content: center;
     margin-top: 200px;
 }
 
-section #mainScroll {
+#mainScroll {
     border: solid 2px;
-    width: 60%;
+    width: 50%;
     margin: auto;
     height: 250px;
+    overflow: scroll;
 }
 
 footer {
@@ -98,4 +95,8 @@ footer {
     align-items: flex-end;
     justify-content: center;
     color: white;
+}
+
+#Steal {
+    border: solid 2px black;
 }
