@@ -95,8 +95,29 @@ footer {
     align-items: flex-end;
     justify-content: center;
     color: white;
+
+    width: 100%;
 }
 
 #Steal {
-    border: solid 2px black;
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+
+#Border {
+/*    border: solid 2px;*/
+/*    display: flex;*/
+    width: 80%;
+    height: 25px;
+    background-color: darkblue;
+    color: white;
+/*    justify-content: space-between;*/
+    padding-top: 3px;
+}
+
+#Border p {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
 }
