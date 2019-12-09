@@ -107,17 +107,81 @@ footer {
 
 #Border {
 /*    border: solid 2px;*/
-/*    display: flex;*/
+    display: flex;
     width: 80%;
     height: 25px;
     background-color: darkblue;
     color: white;
 /*    justify-content: space-between;*/
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 #Border p {
     margin: 0px;
     display: flex;
-    justify-content: space-around;
+/*    justify-content: space-around;*/
+    
+}
+
+#Year {
+    width: 120px;
+    text-align: center;
+}
+
+#Year p {
+    text-align: center;
+}
+
+#Round {
+    width: 80px;
+}
+
+#Overall {
+    width: 90px;
+}
+
+#Team {
+    width: 170px;
+}
+
+#Player {
+    width: 180px;
+}
+
+#GP {
+    width: 80px;
+}
+
+#Seasons {
+    width: 100px;
+}
+
+#G {
+    width: 40px;
+}
+
+#A {
+    width: 40px;
+}
+
+#TP {
+    width: 50px;
+}
+
+#PIM {
+    width: 70px;
+}
+
+thead {
+    background-color: darkblue;
+    color: white;
+}
+
+tbody tr:nth-child(Even) {
+    background-color: silver;
+}
+
+table th, table td {
+    padding: 20px;
+    border: 1px solid black;
 }
