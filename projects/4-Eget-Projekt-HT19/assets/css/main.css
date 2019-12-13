@@ -79,6 +79,12 @@ nav ul li #liSteals {
     margin-top: 200px;
 }
 
+.First {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 #mainScroll {
     border: solid 2px;
     width: 50%;
@@ -116,10 +122,11 @@ footer {
     padding-top: 4px;
 }
 
+/*
 #Border p {
     margin: 0px;
     display: flex;
-/*    justify-content: space-around;*/
+    justify-content: space-around;
     
 }
 
@@ -171,6 +178,7 @@ footer {
 #PIM {
     width: 70px;
 }
+*/
 
 thead {
     background-color: darkblue;
