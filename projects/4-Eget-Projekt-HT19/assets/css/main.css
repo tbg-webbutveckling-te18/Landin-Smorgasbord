@@ -180,6 +180,14 @@ footer {
 }
 */
 
+
+/*
+.DraftYear {
+    background-color: aqua;
+    width: 
+}
+*/
+
 thead {
     background-color: darkblue;
     color: white;
@@ -192,4 +200,9 @@ tbody tr:nth-child(Even) {
 table th, table td {
     padding: 20px;
     border: 1px solid black;
+}
+
+.Info {
+    display: flex;
+    flex: 1
 }
