@@ -24,6 +24,10 @@ header img {
     width: 80px;
 }
 
+header svg {
+
+}
+
 nav {
     
 }
@@ -62,8 +66,8 @@ nav ul li #liSteals {
 
 }
 
-.News {
-    border: solid 2px;
+.News  {
+/*    border: solid 2px;*/
     margin: 100px auto;
     height: 400px;
     width: 70%;
@@ -71,6 +75,10 @@ nav ul li #liSteals {
     display: flex;
     flex-flow: column;
     
+}
+
+.News a img {
+    width: 80%    
 }
 
 .First h2 {
@@ -105,7 +113,7 @@ footer {
     width: 100%;
 }
 
-#Steal {
+#Table {
     display: flex;
     flex-flow: column;
     align-items: center
@@ -184,13 +192,15 @@ footer {
 /*
 .DraftYear {
     background-color: aqua;
-    width: 
+   
+    
 }
 */
 
 thead {
     background-color: darkblue;
     color: white;
+
 }
 
 tbody tr:nth-child(Even) {
@@ -204,5 +214,8 @@ table th, table td {
 
 .Info {
     display: flex;
-    flex: 1
+    justify-content: center;
+}
+.year19 {
+    background-color: aqua
 }
