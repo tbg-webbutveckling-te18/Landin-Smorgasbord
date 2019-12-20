@@ -66,20 +66,34 @@ nav ul li #liSteals {
 
 }
 
-.News  {
-/*    border: solid 2px;*/
+.NewsPic {
     margin: 100px auto;
-    height: 400px;
+    min-height: 400px;
     width: 70%;
     align-items: center;
     display: flex;
     flex-flow: column;
-    
 }
 
-.News a img {
-    width: 80%    
+.NewsPic a img {
+    width: 100%;
 }
+
+
+
+.News  {
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.News iframe {
+    width: 60%;
+    height: 100%;
+}
+
 
 .First h2 {
     display: flex;
@@ -120,7 +134,7 @@ footer {
 }
 
 #Border {
-/*    border: solid 2px;*/
+    border: solid 2px;
     display: flex;
     width: 80%;
     height: 25px;
@@ -213,9 +227,14 @@ table th, table td {
 }
 
 .Info {
-    display: flex;
-    justify-content: center;
+    transform: translate(150px, 20px) 
+
 }
-.year19 {
-    background-color: aqua
+
+.DraftYear {
+    padding: 10px; 
+}
+
+svg {
+    position: 
 }
