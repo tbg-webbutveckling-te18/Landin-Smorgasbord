@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    background-color: #1e90ff;
+    margin: 0;
+    padding: 0;
+}
+
+section.grid-container {
+    background-color: #FF8D1E;
+    
+    width: 80vw;
+    min-height: 100vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 3px 0 10px black, -3px 0 10px black;
+    
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "left mid right"
+        "footer footer bottom-right";
+    grid-template-rows: 200px minmax(350px, auto) 100px;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.grid-item:nth-child(1) {
+    grid-area: header;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-family: impact;
+    letter-spacing: 10px;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: left;
+    background-color: red;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: mid;
+    background-color: green;
+}
+
+.grid-item:nth-child(4) {
+    grid-area: right;
+    background-color: pink;
+}
+
+.grid-item:nth-child(5) {
+    grid-area: footer;
+    background-color: orange;
+}
+
+.grid-item:nth-child(6) {
+    grid-area: bottom-right;
+    background-color: purple;
+}
+
+
+/*
+.grid-item:nth-child(even) {
+    background-color: #7bed9f;
+}
+
+.grid-item:nth-child(odd) {
+    background-color: #ff6b81;
+}
+*/

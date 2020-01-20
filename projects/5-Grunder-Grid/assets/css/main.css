@@ -19,25 +19,16 @@ section.grid-container {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 350px 1fr;
 }
 
-.grid-item:nth-child(1) {
+.grid-item:nth-child(even) {
     background-color: #7bed9f;
 }
 
-.grid-item:nth-child(2) {
+.grid-item:nth-child(odd) {
     background-color: #ff6b81;
 }
 
-.grid-item:nth-child(3) {
-    background-color: #ff6348;
-}
 
-.grid-item:nth-child(4) {
-    background-color: #a4b0be;
-}
-
-.grid-item:nth-child(5) {
-    background-color: #eccc68;
-}
 
