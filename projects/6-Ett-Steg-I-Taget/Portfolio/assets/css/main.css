@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+body {
+    background-color: #34e7e4;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    
+    width: 80vw;
+    min-height: 80vh;
+    
+    margin: auto;
+    border: solid 2px;
+    
+        
+}
+
+.grid-item {
+    border: solid 2px;
+}
+
+.grid-item:nth-child(1) {
+    background-image: url(../../images/portfolio/flygplan.jpg);
+    background-size: cover;
+}
+
+.grid-item:nth-child(2) {
+    background-image: url(../../images/portfolio/vattenfall.jpg);
+    background-size: cover;
+}
+
+.grid-item:nth-child(3) {
+    background-image: url(../../images/portfolio/tr%C3%A4d.jpg);
+    background-size: cover;
+}
+
+.grid-item:nth-child(4) {
+    background-image: url(../../images/portfolio/rocc.jpg);
+    background-size: cover;
+}
+
+.grid-item:nth-child(5) {
+    background-image: url(../../images/portfolio/get.jpg);
+    background-size: cover;
+}
+
+.grid-item:nth-child(6) {
+    background-image: url()
+}
+
+.grid-item:nth-child(7) {
+    background-image: url()
+}
+
+.grid-item:nth-child(8) {
+    background-image: url()
+}
+
+.grid-item:nth-child(9) {
+    background-image: url()
+}
+
