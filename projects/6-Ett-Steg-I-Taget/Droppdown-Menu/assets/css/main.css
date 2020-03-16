@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+/*    padding: 30px;*/
+    background-color: #74b9ff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+/*    border: solid 2px;*/
+    font-size: 40px;
+    background-color: #0984e3;
+    height: 60px;
+    align-items: center;
+}
