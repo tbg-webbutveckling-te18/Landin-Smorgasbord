@@ -10,16 +10,49 @@ ul {
 }
 
 body {
-/*    padding: 30px;*/
     background-color: #74b9ff;
 }
 
-nav ul {
+.Main-Menu {
     display: flex;
     justify-content: space-between;
-/*    border: solid 2px;*/
     font-size: 40px;
     background-color: #0984e3;
     height: 60px;
-    align-items: center;
+
+}
+
+.Main-Menu li {
+    line-height: 60px;
+}
+
+.Hover-Menu2:hover .Drop-Menu2 {
+    visibility: visible;
+    height: 150px;
+    opacity: 1;
+}
+
+
+.Drop-Menu2 {
+    font-size: 20px;
+    visibility: hidden;
+    height: 0px;
+    transition: all 1.2s;
+    opacity: 0;
+    outline: 0;
+}
+
+.Drop-Hover-Menu2:hover .Drop-Drop-Menu2 {
+    visibility: visible;
+    height: 150px;
+    opacity: 1;
+}
+
+.Drop-Drop-Menu2 {
+    font-size: 15px;
+    visibility: hidden;
+    height: 0px;
+    transition: all 1.2s;
+    opacity: 0;
+    outline: 0;
 }
