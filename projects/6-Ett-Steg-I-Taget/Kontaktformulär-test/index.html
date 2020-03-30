@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <title>Kontaktformulär</title>
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <section class="form-container">
         <!--   action = Adressen dit alla data skickas    -->
         <form action="mailto:limpan.landin@gmail.com" class="test-form">
             <fieldset>
-                <legend>Kontaktformulär</legend>
+                <legend><i class="fas fa-bars"></i> Kontaktformulär</legend>
                 <p>
-                    <label for="username">Användarnman</label>
-                    <input type="text" required id="username"> <span class="form-required">*</span>
+                    <label for="username">Användarnman <span class="form-required">*</span></label>
+                    <input type="text" required id="username" placeholder="Skriv ditt användarnamn här..."> 
                 </p>
                 
                 <p>
-                    <label for="email">E-post</label>
-                    <input type="email" required id="email"> <span class="form-required">*</span>
+                    <label for="country"><i class="fas fa-globe-europe"></i>Land <span class="form-required">*</span></label>
+                    <input type="text" required id="country" placeholder="Vilket land bor du i..."> 
                 </p>
                 
                 <p>
-                    <label for="">Ditt meddelande:</label>
-                    <textarea maxlength="250"></textarea>
+                    <label for="email"><i class="fas fa-envelope-square"></i>E-post<span class="form-required">*</span></label>
+                    <input type="email" required id="email" placeholder="Skriv din E-postadress här..."> 
                 </p>
                 
                 <p>
-                    <label for="">Lösenord</label>
-                    <input type="password">
+                    <label for=""><i class="fas fa-comments"></i>Ditt meddelande:</label>
+                    <textarea maxlength="250" placeholder="Skriv ditt meddelande här..."></textarea>
                 </p>
                 
                 <p>
-                    <button type="submit">Skicka</button>
+                    <button type="submit"><i class="fas fa-paper-plane"></i>Skicka</button>
                 </p>
             </fieldset>
         </form>
