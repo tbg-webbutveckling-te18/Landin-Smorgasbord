@@ -9,34 +9,46 @@
 <body>
     <section class="form-container">
         <form action="mailto:limpan.landin@gmail.com" class="main-form">
-            <p>
-                <label for="username">Username</label>
-                <input type="text" required id="username" placeholder="Enter your username...">
-            </p>
+          
+           <section class="parent">
+               
+                <section class="username-parent">
+                    <p>
+                        <label for="username">Username</label>
+                        <input type="text" required id="username" placeholder="Enter your username...">
+                    </p>
             
-            <p>
-                <label for="password">Password</label>
-                <input type="text" required id="password" placeholder="Enter your password...">
-            </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="text" required id="password" placeholder="Enter your password...">
+                    </p>
+                </section>   
             
-            <p>
-                <label for="email">E-mail</label>
-                <input type="email" required id="email" placeholder="Enter your E-mail...">
-            </p>
+                <section class="email-parent">
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="email" required id="email" placeholder="Enter your E-mail...">
+                    </p>
+
+                    <p>
+                        <label for="phonenumber">Phonenumber</label>
+                        <input type="tel" required id="phonenumber" placeholder="Enter your phonenumber...">
+                    </p>
+                </section>
             
-            <p>
-                <label for="phonenumber">Phonenumber</label>
-                <input type="tel" required id="phonenumber" placeholder="Enter your phonenumber...">
-            </p>
-            
-            <p>
-                <label for="message">Your Message</label>
-                <textarea maxlength="200" required id="message" placeholder="Enter your message" ></textarea>
-            </p>
-            
-            <p>
-                <button type="submit">Send</button>
-            </p>
+ 
+            </section>
+            <section class="message-parent">
+
+                <p>
+                    <label for="message">Your Message</label>
+                    <textarea maxlength="200" required id="message" placeholder="Enter your message" ></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </section>
         </form>
     </section>
 </body>
