@@ -32,19 +32,21 @@ section.grid-container {
     grid-gap: 
 }
 
-.grid-item {
-    
+.home-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
-a:nth-child(even) {
+.project-links:nth-child(even) {
     background-color: #686de0;
 }
 
-a:nth-child(odd) {
+.project-links:nth-child(odd) {
     background-color: #FFD021;
 }
 
-a {
+.project-links {
     text-decoration: none;
     color: black;
     display: flex;
