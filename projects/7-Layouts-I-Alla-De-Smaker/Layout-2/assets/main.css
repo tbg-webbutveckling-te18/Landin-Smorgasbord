@@ -1,0 +1,48 @@
+@charset 'utf-8';
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+/*    margin: 5px;*/
+}
+
+header {
+    display: flex;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-color: grey;
+    height: 100%;
+    width: 30%;
+    margin-right: 500px;
+}
+
+.header-ad {
+    background-color: grey;
+    height: 100%;
+    width: 70%;
+}
+
+nav {
+    background-color: orange;
+    
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.container-parent {
+    height: 700px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: blue;
+    height: 115px;
+}
