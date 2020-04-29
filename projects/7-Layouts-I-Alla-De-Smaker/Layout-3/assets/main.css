@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+nav {
+    height: 20%;
+    width: 100%;
+    
+    background-color: aqua;
+}
+
+.image-scroller {
+    height: 30%;
+    width: 100%;
+    
+    background-color: rebeccapurple;
+}
+
+main {
+    height: 40%;
+    width: 100%;
+    
+    background-color: red;
+}
