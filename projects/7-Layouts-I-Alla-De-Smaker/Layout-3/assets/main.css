@@ -14,19 +14,50 @@ nav {
     height: 20%;
     width: 100%;
     
-    background-color: aqua;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+li {
+    border: solid black 2px;
+    border-radius: 5px;;
+    
+    list-style: none;
+    font-size: 20px;
 }
 
 .image-scroller {
     height: 30%;
     width: 100%;
     
-    background-color: rebeccapurple;
+    background-color: lightgray;
+    border-top: solid gray 3px;
 }
 
 main {
     height: 40%;
     width: 100%;
     
-    background-color: red;
+    background-color: white;
+    border-top: solid gray 3px;
+}
+
+footer {
+    height: 10%;
+    width: 100%; 
+    
+    background-color: white;
+    border-top: solid gray 3px;
 }
