@@ -36,6 +36,7 @@ li {
     
     list-style: none;
     font-size: 20px;
+    width: 70px;
 }
 
 .image-scroller {
@@ -44,7 +45,29 @@ li {
     
     background-color: lightgray;
     border-top: solid gray 3px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.fa-chevron-left {
+    font-size: 30px;
+}
+
+.fa-chevron-right {
+    font-size: 30px;
+}
+
+.image-parent {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 
 main {
     height: 40%;
@@ -52,6 +75,22 @@ main {
     
     background-color: white;
     border-top: solid gray 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {
+    width: 50%;
+    height: 80%;
+/*    border: solid black 2px;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.grid-item {
+    border: solid black 2px;
 }
 
 footer {
