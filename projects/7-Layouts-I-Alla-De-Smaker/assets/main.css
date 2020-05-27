@@ -1,0 +1,56 @@
+@charset 'utf-8';
+
+body {
+    background-color: #4834d4;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+section.grid-container {
+    background-color: #4834d4;
+    
+    width: 80vw;
+    height: auto;
+    
+    margin: auto;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    
+    border: solid 2px;
+    
+    grid-gap: 
+}
+
+.home-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.project-links:nth-child(even) {
+    background-color: #686de0;
+}
+
+.project-links:nth-child(odd) {
+    background-color: #FFD021;
+}
+
+.project-links {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}

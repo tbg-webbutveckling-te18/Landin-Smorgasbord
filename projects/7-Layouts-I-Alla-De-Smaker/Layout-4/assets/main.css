@@ -43,7 +43,7 @@ header section {
 header section:nth-child(1) {
     height: 100%;
     width: 20%;
-    background-color: aqua;
+/*    background-color: aqua;*/
     border: solid black 2px;
     margin-right: 10px;
 }
@@ -51,7 +51,7 @@ header section:nth-child(1) {
 header section:nth-child(2) {
     height: 100%;
     width: 65%;
-    background-color: red;
+/*    background-color: red;*/
     border: solid black 2px;
     margin-right: 10px;
 }
@@ -59,7 +59,7 @@ header section:nth-child(2) {
 header section:nth-child(3) {
     height: 100%;
     width: 15%;
-    background-color: blue;
+/*    background-color: blue;*/
     border: solid black 2px;
     display: flex;
     flex-flow: column;
@@ -95,7 +95,7 @@ main {
     
 }
 
-.left {
+.parent-left {
     height: 100%;
     width: 20%;
     border: solid black 2px;
@@ -107,7 +107,7 @@ main {
     
 }
 
-.middle {
+.parent-middle {
     height: 100%;
     width: 65%;
     border: solid black 2px;
@@ -118,11 +118,23 @@ main {
     justify-content: center;
 }
 
+
 .parent-right {
     height: 100%;
     width: 15%;
     display: flex;
     flex-flow: column;
+}
+
+.parent-right section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.parent-right p {
+    margin: 5px;
 }
 
 .parent-right section:nth-child(1) {

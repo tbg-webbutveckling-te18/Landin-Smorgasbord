@@ -40,6 +40,14 @@ li {
     text-align: center;
 }
 
+@keyframes slideshow {
+    0% {background-image: url(Avant-Tower-Gaming-PC2.png)}
+    25% {background-image: url(gaminglogo.png)}
+    50% {background-image: url(64controller.png)}
+    75% {background-image: url(controller.png)}
+    100% {background-image: url(Avant-Tower-Gaming-PC2.png)}
+}
+
 .image-scroller {
     height: 30%;
     width: 100%;
