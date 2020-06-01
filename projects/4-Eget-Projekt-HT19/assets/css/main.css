@@ -24,13 +24,6 @@ header img {
     width: 80px;
 }
 
-header svg {
-
-}
-
-nav {
-    
-}
 
 nav ul {
 /*    border: solid 2px;*/
@@ -41,7 +34,7 @@ nav ul {
     justify-content: space-between;
     font-size: 20px;
     height: 60px;
-    align-items: center;
+/*    align-items: center;*/
     background-color: #2c3e50;
         
 }
@@ -51,7 +44,8 @@ nav ul li {
     display: flex;
     width: 225px;
     justify-content: center;
-    background-color: #2c3e50
+    background-color: #2c3e50;
+    align-items: center;
     
 }
 
@@ -62,9 +56,6 @@ nav li a {
 
 }
 
-nav ul li #liSteals {
-
-}
 
 .NewsPic {
     margin: 100px auto;
@@ -119,12 +110,25 @@ footer {
     margin-top: 100px;
     height: 200px;
     background-color: #2d3436;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     color: white;
-
     width: 100%;
+}
+
+.copy {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
 }
 
 #Table {
@@ -144,72 +148,6 @@ footer {
     padding-top: 4px;
 }
 
-/*
-#Border p {
-    margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-#Year {
-    width: 120px;
-    text-align: center;
-}
-
-#Year p {
-    text-align: center;
-}
-
-#Round {
-    width: 80px;
-}
-
-#Overall {
-    width: 90px;
-}
-
-#Team {
-    width: 170px;
-}
-
-#Player {
-    width: 180px;
-}
-
-#GP {
-    width: 80px;
-}
-
-#Seasons {
-    width: 100px;
-}
-
-#G {
-    width: 40px;
-}
-
-#A {
-    width: 40px;
-}
-
-#TP {
-    width: 50px;
-}
-
-#PIM {
-    width: 70px;
-}
-*/
-
-
-/*
-.DraftYear {
-    background-color: aqua;
-   
-    
-}
-*/
 
 thead {
     background-color: darkblue;
@@ -238,4 +176,20 @@ table th, table td {
 svg {
     width: 64px;
 
+}
+
+.active {
+    border-bottom: 5px solid lightblue;
+}
+
+.fa-instagram {
+    font-size: 40px;
+}
+
+.fa-twitter {
+    font-size: 40px;
+}
+
+.fa-facebook-square {
+    font-size: 40px;
 }

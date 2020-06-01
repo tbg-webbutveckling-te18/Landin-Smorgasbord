@@ -58,6 +58,7 @@ li {
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    animation: slideshow 4s infinite;
 }
 
 .fa-chevron-left {
