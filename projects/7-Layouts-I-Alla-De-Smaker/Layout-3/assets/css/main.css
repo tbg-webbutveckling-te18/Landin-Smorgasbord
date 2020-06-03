@@ -41,11 +41,11 @@ li {
 }
 
 @keyframes slideshow {
-    0% {background-image: url(Avant-Tower-Gaming-PC2.png)}
-    25% {background-image: url(gaminglogo.png)}
-    50% {background-image: url(64controller.png)}
-    75% {background-image: url(controller.png)}
-    100% {background-image: url(Avant-Tower-Gaming-PC2.png)}
+    0% {background-image: url(../Avant-Tower-Gaming-PC2.png)}
+    25% {background-image: url(../gaminglogo.png)}
+    50% {background-image: url(../64controller.png)}
+    75% {background-image: url(../controller.png)}
+    100% {background-image: url(../Avant-Tower-Gaming-PC2.png)}
 }
 
 .image-scroller {
@@ -115,55 +115,55 @@ main {
 }
 
 .grid-item:nth-child(1) {
-    background-image: url(ps4.png);
+    background-image: url(../ps4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .grid-item:nth-child(2) {
-    background-image: url(xbone.png);
+    background-image: url(../xbone.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% -9px
 }
 
 .grid-item:nth-child(3) {
-    background-image: url(white-pc.png);
+    background-image: url(../white-pc.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% -6px;
 }
 
 .grid-item:nth-child(4) {
-    background-image: url(headset.png);
+    background-image: url(../headset.png);
     background-size: contain;
     background-repeat: no-repeat;
     
 }
 
 .grid-item:nth-child(5) {
-    background-image: url(ds4.png);
+    background-image: url(../ds4.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% -30px;
 }
 
 .grid-item:nth-child(6) {
-    background-image: url(xbox-controller.png);
+    background-image: url(../xbox-controller.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% -5px;
 }
 
 .grid-item:nth-child(7) {
-    background-image: url(keyboard.png);
+    background-image: url(../keyboard.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% -25px;
 }
 
 .grid-item:nth-child(8) {
-    background-image: url(N64.png);
+    background-image: url(../N64.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
