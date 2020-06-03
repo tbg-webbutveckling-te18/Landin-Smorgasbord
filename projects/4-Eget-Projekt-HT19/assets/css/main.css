@@ -116,6 +116,14 @@ footer {
     width: 100%;
 }
 
+.contact {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
 .copy {
     display: flex;
     flex-flow: column;
