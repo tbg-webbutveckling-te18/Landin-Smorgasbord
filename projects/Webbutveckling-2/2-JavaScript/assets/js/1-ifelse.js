@@ -52,3 +52,53 @@ if (d.getHours() < 10) {
 } else {
     console.log('Good Ebening!')
 }
+
+var grade = 'A';
+switch(grade) {
+    case 'A':
+        console.log('Amazing job!');
+        break;
+    case 'B':
+        console.log('Very good job!');
+        break;
+    case 'C':
+        console.log('Great job!');
+        break;
+    case 'D':
+        console.log('Good job!');
+        break;
+    case 'E':
+        console.log('Okey job')
+        break;
+    case 'F':
+        console.log('You did not pass')
+        break;
+
+    default:
+        console.log('Unkown grade!;')
+}
+
+var day = d.getDay();
+switch(day) {
+    case 0:
+        console.log('It is Sunday today')
+        break;
+    case 1:
+        console.log('It is Monday today')
+        break;
+    case 2:
+        console.log('It is Tuesday today')
+        break;
+    case 3:
+        console.log('It is Wednesday today')
+        break;
+    case 4:
+        console.log('It is Thursday today')
+        break;
+    case 5:
+        console.log('It is Friday today')
+        break;
+    case 6:
+        console.log('It is Saturday today')
+        break;
+}
