@@ -63,5 +63,30 @@ document.writeln('---------------------------------------<br>');
 // Exericse 6 
 
 for(var i = 5; i < 51; i++) {
-    if(i % 5 )
+    if(i % 5 == 0 && i % 3 == 0) {
+        document.writeln('Even numbers divided by 5 and 3: ' + i + '<br>')
+    }
+}
+document.writeln('---------------------------------------<br>');
+
+// Exercise 7
+
+for(var i = 0; i < 11; i++) {
+    var multiplied = (i * 9)
+    document.writeln('Number ' + i + ' multiplied by 9 = ' + multiplied + '<br>')
+}
+document.writeln('---------------------------------------<br>');
+
+// Nested for loops
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
+for(var i = 0; i < 5; i++) {
+    for( var j = 0; j < 5; j++) {
+        document.writeln('*');
+    }
+    document.writeln('<br>');
 }
