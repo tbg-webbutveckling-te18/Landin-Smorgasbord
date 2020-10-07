@@ -72,7 +72,7 @@ document.writeln('---------------------------------------<br>');
 // Exercise 7
 
 for(var i = 0; i < 11; i++) {
-    var multiplied = (i * 9)
+    var multiplied = i * 9
     document.writeln('Number ' + i + ' multiplied by 9 = ' + multiplied + '<br>')
 }
 document.writeln('---------------------------------------<br>');
@@ -90,3 +90,36 @@ for(var i = 0; i < 5; i++) {
     }
     document.writeln('<br>');
 }
+document.writeln('---------------------------------------<br>');
+
+// Bonus 1
+
+for(var i = 0; i < 11; i++) {
+    for(var j = 0; j < 11; j++) {
+        var result = i * j 
+        document.writeln('Number ' + i + ' multiplied by ' + j + ' = ' + result + '<br>')
+    }
+}
+document.writeln('---------------------------------------<br>');
+
+// Bonus 2
+
+var gamesArr = ['CS:GO', 'Dota 2', 'NHL', 'Minecraft'];
+var len = gamesArr.length;
+for(var i = 0; i < len; i++) {
+    var choice = i + 1
+    if (choice == 1) {
+        ending = 'st'
+    }
+    else if(choice == 2) {
+        ending = 'nd'
+    }
+    else if(choice == 3) {
+        ending = 'rd'
+    }
+    else {
+        ending = 'th'
+    }
+    document.writeln('My ' + choice + ending + ' choice is ' + gamesArr[i] + '<br>')
+}
+document.writeln('---------------------------------------<br>');
