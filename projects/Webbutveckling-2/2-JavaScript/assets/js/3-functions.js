@@ -42,9 +42,43 @@ var result = area(6, 9);
 
 document.writeln(result);
 
-function quadrupleMe(x) {
-    return 4 * x;
+function duplicateMe(x) {
+    return 2 * x;
 }
 
-var myNumber = quadrupleMe(4);
-alert(myNumber);
+var myNumber = duplicateMe(3.5);
+
+
+var btnNumber = document.getElementById('myNumber')
+btnNumber.innerHTML = '<strong>My favorite</strong> number is: ' + myNumber;
+
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+var city = 'stockholm';
+var capital = capitalize(city);
+document.writeln('<br> The capital of Sweden is: ' + capital + '<br>');
+
+// Test 1 
+function isEven(x) {
+    if (x % 2 == 0) {
+        document.writeln('True');
+    }
+    else {
+        document.writeln('False');
+    }
+}
+
+isEven(10)
+isEven(5)
+isEven(11)
+isEven(12)
+
+// Test 2
+function kebabToSnake(kebabString) {
+    var snakeString = kebabString.replaceAll('-', '_');
+    return snakeString;
+}
+
+document.writeln(kebabToSnake('<br>'+ 'Kebab-På-Spett'))
