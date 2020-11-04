@@ -81,7 +81,7 @@ function kebabToSnake(kebabString) {
     return snakeString;
 }
 
-document.writeln(kebabToSnake('<br>'+ 'Kebab-På-Spett'))
+document.writeln(kebabToSnake('<br>'+ 'Kebab-På-Spett' + '<br>'))
 
 var p = document.getElementById('scopes');
 
@@ -134,4 +134,28 @@ btnStopTime.addEventListener('click', function() {
     doomsStr.style.fontSize = '60px';
     doomsStr.style.color = 'crimson';
 
-})
+});
+
+var output = document.getElementById('tellFortune');
+var btnFortune = document.getElementsByTagName('button')[2];
+
+function tellFortune(job, location, partner, children) {
+    output.innerHTML += `You will be a ${job} in ${location} and married to ${partner} and have ${children} kids <br>`;
+}
+
+var jobArr = ['Game Designer', 'Web Developer', 'Homeless', 'YouTuber', 'President'];
+var locationArr = ['Lycksele', 'Stockholm', 'New York', 'Moscow', 'Kingston'];
+var partnerArr = ['Kenneth', 'Leif', 'Susan', 'Michelle', 'Igor'];
+var childrenArr = [0, 1, 2, 3, 1.5];
+
+btnFortune.addEventListener('click', function() {
+    var randomJob = jobArr[Math.floor(Math.random() * jobArr.length)];
+    var randomLocation = locationArr[Math.floor(Math.random() * locationArr.length)];
+    var randomPartner = partnerArr[Math.floor(Math.random() * partnerArr.length)];
+    var randomChildren = childrenArr[Math.floor(Math.random() * childrenArr.length)];
+
+    tellFortune(randomJob, randomLocation, randomPartner, randomChildren)
+});
+
+
+
