@@ -157,5 +157,21 @@ btnFortune.addEventListener('click', function() {
     tellFortune(randomJob, randomLocation, randomPartner, randomChildren)
 });
 
+function calculateDogAge(puppyAge, age) {
+    dogAge = puppyAge * 7
+    humanAge = Math.round(age / 7) 
+    document.writeln(`Your doggie is ${dogAge} years old in dog years! <br> And you, human, are ${humanAge} <br>`)
+}
+
+calculateDogAge(2, 17);
+
+function calculateSupply(age, amount) {
+    timeLeft = 100 - age
+    yearlyConsumption = amount * 365
+    totalConsumption = Math.round(yearlyConsumption * timeLeft)
+    document.writeln(`You will need ${totalConsumption} bags of popcorn to last you until your time has come`)
+}
+
+calculateSupply(17, 2)
 
 
