@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ecf0f1;
+
+}
+
+header {
+    border: solid 2px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2980b9;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav {
+    border: solid 2px;
+    height: 10vh;
+    display: flex;
+    background-color: #74b9ff;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    border: solid 2px;
+}
+
