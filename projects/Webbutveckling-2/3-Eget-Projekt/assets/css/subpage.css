@@ -53,10 +53,6 @@ nav {
     opacity: 1;
 }
 
-.hoverMenu {
-    position: relative;
-}
-
 .dropDown {
     visibility: hidden;
     height: 0px;
@@ -64,8 +60,6 @@ nav {
     opacity: 0;
     outline: 0;
     list-style: none;
-    position: absolute;
-    bottom: 0;
 }
 
 main {
@@ -78,8 +72,17 @@ main {
     background-color: white;
 }
 
+.sideNav {
+    height: 100%;
+    width: 20%;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .JsDescription {
-    height: 80%;
+    height: 70%;
     border: solid 2px;
     width: 80%;
     background-color: white;
