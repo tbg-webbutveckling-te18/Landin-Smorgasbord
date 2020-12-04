@@ -25,6 +25,13 @@ header h1 {
     font-size: 40px;
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 nav {
     /* border: solid 2px; */
     height: 10%;
@@ -42,19 +49,22 @@ nav {
     align-items: center;
 }
 
-.navParent li {
+.navChild {
+    height: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     color: black;
+}
+
+.active {
+    background-color: white;
 }
 
 .navParent a {
     text-decoration: none;
     color: black;
 }
-
-/* .navParent li:nth-child(1) {
-    height: 100%;
-} */
 
 .hoverMenu:hover .dropDown {
     visibility: visible;
@@ -63,12 +73,12 @@ nav {
 }
 
 .navParent li:hover {
-    background-color: white;
+    text-decoration: underline;
 }
 
 .hoverMenu {
     /* position: relative; */
-    min-height: auto;
+    /* min-height: auto; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -84,6 +94,8 @@ nav {
     position: absolute;
     margin-top: 20px;
     margin-left: 30px;
+    top: 40px;
+    
 }
 
 main {
