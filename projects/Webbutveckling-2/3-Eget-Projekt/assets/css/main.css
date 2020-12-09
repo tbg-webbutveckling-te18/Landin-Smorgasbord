@@ -41,6 +41,10 @@ nav {
     padding-right: 200px;
 }
 
+i {
+    margin-right: 2px;
+}
+
 .navParent {
     display: flex;
     width: 100%;

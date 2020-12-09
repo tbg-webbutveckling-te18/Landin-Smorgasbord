@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    /* border: solid 2px; */
     height: 20%;
     display: flex;
     justify-content: center;
@@ -32,11 +33,16 @@ hr {
 }
 
 nav {
+    /* border: solid 2px; */
     height: 10%;
     display: flex;
     background-color: #74b9ff;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+i {
+    margin-right: 2px;
 }
 
 .navParent {
@@ -47,14 +53,17 @@ nav {
     align-items: center;
 }
 
-.navParent li {
-    display: flex;
+.navChild {
     height: 100%;
+    width: 150px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    color: black;
 }
 
 .active {
-    background-color: white;
+    background-color: #dfe6e9;
 }
 
 .navParent a {
@@ -68,9 +77,13 @@ nav {
     opacity: 1;
 }
 
+.navParent li:hover {
+    text-decoration: underline;
+}
+
 .hoverMenu {
     /* position: relative; */
-    min-height: auto;
+    /* min-height: auto; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -86,6 +99,7 @@ nav {
     position: absolute;
     margin-top: 20px;
     margin-left: 30px;
+    top: 40px;   
 }
 
 main {
@@ -104,8 +118,15 @@ main {
     border-right: solid 1px;
     box-shadow: 3px 0px 5px -3px;
     display: flex;
+    flex-flow: column;
     /* justify-content: center;
     align-items: center; */
+}
+
+.sideNav p {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
 }
 
 .sideNav ul {
@@ -122,11 +143,16 @@ main {
     justify-content: center;
     justify-content: space-evenly;
     align-items: flex-start;
-    font-size: 15px;
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+.sideNav a:hover {
+    text-decoration: underline;
 }
 
 .sideNav a {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     text-decoration: none;
     color: black;
 }
@@ -150,4 +176,7 @@ footer {
     height: 20%;
     /* border: solid 2px; */
     background-color: #95a5a6;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
