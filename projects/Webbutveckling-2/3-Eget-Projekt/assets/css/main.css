@@ -68,6 +68,7 @@ i {
 .navParent a {
     text-decoration: none;
     color: black;
+    height: 18px;
 }
 
 .hoverMenu:hover .dropDown {
