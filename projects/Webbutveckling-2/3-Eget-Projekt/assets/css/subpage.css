@@ -173,6 +173,21 @@ main {
     padding-left: 10px;
 }
 
+.tutorialContainer {
+    height: 80%;
+    display: flex;
+}
+
+#imgExample {
+    height: 100%;
+    width: 50%;
+}
+
+#resultContainer {
+    height: 100%;
+    width: 50%;
+}
+
 footer {
     height: 20%;
     /* border: solid 2px; */
