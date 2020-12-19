@@ -74,7 +74,7 @@ i {
 
 .hoverMenu:hover .dropDown {
     visibility: visible;
-    height: 150px;
+    height: 100px;
     opacity: 1;
 }
 
@@ -101,6 +101,8 @@ i {
     margin-top: 20px;
     margin-left: 30px;
     top: 40px;   
+    position: absolute;
+    background-color: white;
 }
 
 main {
@@ -173,6 +175,92 @@ main {
     padding-left: 10px;
 }
 
+.JsDescription p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.functionDescription {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75%;
+    border: solid 2px;
+    box-shadow: 5px 7px 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.functionDescription h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.functionDescription p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.selectionDescription {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75%;
+    border: solid 2px;
+    box-shadow: 5px 7px 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.selectionDescription h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.selectionDescription p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.objectDescription {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 94%;
+    border: solid 2px;
+    box-shadow: 5px 7px 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.objectDescription h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.objectDescription p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.loopDescription {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75%;
+    border: solid 2px;
+    box-shadow: 5px 7px 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.loopDescription h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.loopDescription p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
 .tutorialContainer {
     height: 80%;
     display: flex;
@@ -181,11 +269,26 @@ main {
 #imgExample {
     height: 100%;
     width: 50%;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.loopIMG {
+    height: 85%;
+}
+
+.btnResult {
+    width: 20%;
+    margin-top: 5px;
 }
 
 #resultContainer {
     height: 100%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {

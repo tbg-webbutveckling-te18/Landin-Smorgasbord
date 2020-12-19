@@ -73,7 +73,7 @@ i {
 
 .hoverMenu:hover .dropDown {
     visibility: visible;
-    height: 150px;
+    height: 100px;
     opacity: 1;
 }
 
@@ -100,7 +100,7 @@ i {
     margin-top: 20px;
     margin-left: 30px;
     top: 40px;
-    
+    background-color: white;
 }
 
 main {
@@ -124,6 +124,16 @@ main {
 .JsDescription h2 {
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.JsDescription p {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.JsDescription ul {
+    padding-top: 10px;
+    padding-left: 25px;
 }
 
 footer {
