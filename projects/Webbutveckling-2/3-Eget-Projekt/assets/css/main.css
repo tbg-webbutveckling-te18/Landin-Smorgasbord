@@ -136,6 +136,25 @@ main {
     padding-left: 25px;
 }
 
+.AboutMe {
+    height: 40%;
+    border: solid 2px;
+    box-shadow: 5px 10px;
+    width: 65%;
+    background-color: white;
+}
+
+.AboutMe h2 {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.AboutMe p {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
 footer {
     height: 20%;
     /* border: solid 2px; */
