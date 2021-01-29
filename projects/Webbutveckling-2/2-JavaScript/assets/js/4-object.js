@@ -1,7 +1,7 @@
 var person = ['Sid', 33, 'Male', 'EagleShieldBay'];
  
 person.shift();
-document.writeln(person[2])
+// document.writeln(person[2]);
  
 var personFriends = ['Bob', 'Dylan', 'Aiizee', 'Deezee'];
  
@@ -14,11 +14,18 @@ var user = {
     isEvil: false,
     shoutout: function() {
         alert(`Shoutout to y'all!`);
-    } 
+    },
+    levelUp: function () {
+       return this.age++;
+    }
 };
- 
-document.writeln(`<br>My name is ${user.name} and I am ${user.age} and I live in ${user.city}`);
-// user.shoutout();
+
+var levelUpBtn = document.querySelector(".aging");
+levelUpBtn.addEventListener('click', function() {
+    firstOutput.innerHTML = `<br>My name is ${user.name} and I am ${user.levelUp()} and I live in ${user.city}`;
+})
+
+var firstOutput = document.getElementById("userInfo");
  
 for(var i = 0; i < user.friends.length; i++) {
     console.log(user.friends[i]);
@@ -29,9 +36,9 @@ user.friends.forEach(function(friend) {
     console.log(friend)
 })
  
-console.log(user.age)
-user.age++;
-console.log(user.age)
+// console.log(user.age)
+// user.age++;
+// console.log(user.age)
 
 var posts = [
     {
@@ -54,4 +61,11 @@ var postOutput = document.querySelector(".posts")
 
 posts.forEach(function(post) {
     postOutput.innerHTML += `Author: ${post.author} <br> Commented: ${post.comment} <br><br>`;
+})
+
+var input = document.querySelector(".updateCity");
+input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') {
+        alert(`You clicked ${e}`)
+    }
 })
