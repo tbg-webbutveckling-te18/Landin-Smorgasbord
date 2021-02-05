@@ -102,25 +102,54 @@ Create your own code - movieDB
 */
 
 
+// var movies = [
+//     {
+//         title: "Frozen",
+//         seen: "You have seen",
+//         rating: "4.5 stars"
+//     },
+//     {
+//         title: "Django",
+//         seen: "You have not seen",
+//         rating: "5 stars"
+//     },
+//     {
+//         title: "Vaiana",
+//         seen: "You have seen",
+//         rating: "5 stars"
+//     },
+//     {
+//         title: "Shawshank Redemption",
+//         seen: "You have not seen",
+//         rating: "5 stars"
+//     }
+// ]
+
+// var movieOutput = document.querySelector(".movies")
+
+// movies.forEach(function(movie) {
+//     movieOutput.innerHTML += `Title: ${movie.title} <br> Seen: ${movie.seen} <br> Rating: ${movie.rating} <br><br>`;
+// })
+
 var movies = [
     {
         title: "Frozen",
-        seen: "You have seen",
+        seen: true,
         rating: "4.5 stars"
     },
     {
         title: "Django",
-        seen: "You have not seen",
+        seen: false,
         rating: "5 stars"
     },
     {
         title: "Vaiana",
-        seen: "You have seen",
+        seen: true,
         rating: "5 stars"
     },
     {
         title: "Shawshank Redemption",
-        seen: "You have not seen",
+        seen: false,
         rating: "5 stars"
     }
 ]
@@ -128,5 +157,55 @@ var movies = [
 var movieOutput = document.querySelector(".movies")
 
 movies.forEach(function(movie) {
-    movieOutput.innerHTML += `Title: ${movie.title} <br> Seen: ${movie.seen} <br> Rating: ${movie.rating} <br><br>`;
+    if (movie.seen == true) {
+        X = "You have seen this movie"
+    } else {
+        X = "You have not seen this movie"
+    }
+    movieOutput.innerHTML += `Title: ${movie.title} <br> Seen: ${X} <br> Rating: ${movie.rating} <br><br>`;
 })
+
+
+var opc = document.querySelector("#outputCalc");
+var countObj = {
+    someText: 'This is some text',
+    multiply: function(x, y) {
+        return x * y; 
+    },
+    divide: function(x, y) {
+        return x / y;
+    }
+}
+
+// opc.innerHTML = countObj.multiply(10, 5)
+// opc.innerHTML = countObj.divide(14,2)
+
+//Our own animal sound library
+var outputSound = document.querySelector(".animalSound");
+var btnAnimal = document.querySelectorAll(".btnAnimal")
+
+var animalSound = {
+    dog: function() {
+        outputSound.innerHTML = 'Voff Voff!';
+    },
+    cat: function() {
+        outputSound.innerHTML = 'Meeeoow!'
+    },
+    wolf: function() {
+        outputSound.innerHTML = 'Aooooooow!';
+    },
+    cow: function() {
+        outputSound.innerHTML = 'Moooooo!'
+    }
+}
+
+for(var i = 0; i < btnAnimal.length; i++) {
+    btnAnimal[i].addEventListener('click', function() {
+        switch (this.innerHTML) {
+            case 'Dog': {
+                animalSound.dog();
+                break;
+            }
+        }
+    })
+}
