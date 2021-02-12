@@ -263,3 +263,19 @@ function youAreDoomed() {
 youAreDoomed = () => document.body.innerHTML = "Haha! Owned!";
 
 btnDoomed.addEventListener("click", youAreDoomed)
+
+var todo = document.querySelectorAll('.todo li');
+
+for(var i = 0; i < todo.length; i ++) {
+    todo[i].addEventListener('mouseover', function(){
+        this.classList.add('todo-hover')
+    })
+
+    todo[i].addEventListener('mouseleave', function(){
+        this.classList.remove('todo-hover')
+    })
+
+    todo[i].addEventListener('click', function(){
+        this.classList.toggle('todo-complete')
+    })
+}
