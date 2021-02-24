@@ -36,7 +36,7 @@ header h1 {
     color: #007AF3;
 }
 
-.mobile-icon {
+.mobile-icon, .mobile-icon-close {
     display: none;
 }
 
@@ -68,10 +68,20 @@ main {
 .main-center {
     flex: 4;
     background-color: #5F6C7E;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
 }
 .main-right {
     flex: 1;
     background-color: #637692;
+}
+
+.main-content {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
