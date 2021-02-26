@@ -21,11 +21,19 @@ header {
     right: 20px;
 }
 
+.mobile-icon:hover {
+    cursor: pointer;
+}
+
 .mobile-icon-close {
     display: block;
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.mobile-icon-close:hover {
+    cursor: pointer;
 }
 
 .mobile-menu {
