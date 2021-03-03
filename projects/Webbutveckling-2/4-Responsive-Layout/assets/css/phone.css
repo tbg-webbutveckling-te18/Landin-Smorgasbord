@@ -41,7 +41,8 @@ header {
     position: absolute;
     transform: translateX(100%);
     transition: all 0.4s;
-    background-color: #d4d3d3;
+    /* background-color: #d4d3d3; */
+    background-color: #3E4043;
     align-items: center;
     /* z-index: 1; */
 }
@@ -56,13 +57,31 @@ header {
 }
 
 .mobile-menu li {
-    background-color: #d4d3d3;
+    /* background-color: #d4d3d3; */
+    background-color: #3E4043;
     width: 100%;
     padding: 5px;
     text-align: center;
     border-bottom: 1px solid black;
+    border-radius: 4px;
 }
 
 .mobile-menu li:hover {
-    background-color: #99b8cc;
+    background-color: #d4e7ff;
+}
+
+.social-media h1 {
+    font-size: 20px;
+}
+
+.social-media i {
+    font-size: 25px;
+}
+
+.contact h1 {
+    font-size: 20px;
+}
+
+.contact p {
+    font-size: 15px;
 }
