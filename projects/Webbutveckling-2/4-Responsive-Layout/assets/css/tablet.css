@@ -32,4 +32,25 @@ main {
 .main-right {
     order: 3;
     background-color: #7389ac;
+    display: flex;
+    flex-flow: row;
+}
+
+.newsletter {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+}
+
+.email input {
+    width: 30%;
+    height: 25px;
+    border-radius: 1px;
+}
+
+.newsletter-input button {
+    border-radius: 6px;
+    height: 30px;
+    width: 40%;
 }

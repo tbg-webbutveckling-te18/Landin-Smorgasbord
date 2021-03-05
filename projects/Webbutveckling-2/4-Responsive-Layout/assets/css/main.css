@@ -105,6 +105,58 @@ main {
 .main-right {
     flex: 1;
     background-color: #637692;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.newsletter {
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    
+}
+
+.newsletter h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.newsletter-input {
+    display: flex;
+    flex-flow: column;
+}
+
+.newsletter-input p {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 15px;
+}
+
+.email label {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
+.email input {
+    width: 75%;
+    height: 25px;
+    border-radius: 1px;
+}
+
+.checkbox input{
+    margin-right: 3px;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+.newsletter-input button {
+    border-radius: 6px;
+    height: 30px;
 }
 
 footer {

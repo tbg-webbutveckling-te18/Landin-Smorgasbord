@@ -70,6 +70,49 @@ header {
     background-color: #d4e7ff;
 }
 
+.main-right {
+    justify-content: center;
+}
+
+.newsletter {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.email, .checkbox, .newsletter-input {
+    display: flex;
+    flex-flow: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.email input {
+    width: 70%;
+    height: 25px;
+    border-radius: 1px;
+    margin: 0px;
+}
+
+.checkbox input {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.checkbox label {
+    text-align: center;
+}
+
+.newsletter-input button {
+    border-radius: 6px;
+    height: 30px;
+    width: 40%;
+}
+
 .social-media h1 {
     font-size: 20px;
 }
