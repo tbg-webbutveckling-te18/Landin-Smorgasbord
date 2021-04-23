@@ -29,36 +29,96 @@ nav {
 }
 
 .heroSection {
-    height: 80%;
+    height: 400px;
     width: 100%;
+    background-color: #f2f2f2;
 
     display: flex;
     flex-flow: row;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
 }
 
 .heroSectionLeft {
     height: 100%;
     width: 50%;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
 
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.heroSectionLeft h1 {
+.heroParent {
+    height: 60%;
+    width: 50%;
+}
+
+.heroParent h1 {
     font-size: 25px;
+}
+
+.heroParent h2 {
+    font-size: 40px;
 }
 
 .heroInteractions {
     height: 30%;
     width: 100%;
+    display: flex;
+    flex-flow: row;
+
+    align-items: center;
+}
+
+.heroInteractions button {
+    background-color: #007af3;
+    color: white;
+    height: 45px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+
+    font-weight: bold;
+}
+
+.heroInteractions p {
+    padding-left: 10px;
+    text-decoration: underline;
 }
 
 .heroSectionRight {
     height: 100%;
     width: 50%;
-    border: solid 2px red;
+    /* border: solid 2px red; */
+}
+
+.mainContent {
+    height: 400px;
+    width: 100%;
+
+    background-color: #24294C;
+    display: flex;
+    flex-flow: row;
+}
+
+.phone {
+    height: 90%;
+    width: 200px;
+
+    background-color: #007af3;
+    position: relative;
+    top: -80px;
+}
+
+.tasks {
+    color: white;
+    height: 80%;
+}
+
+.tasks ul {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
