@@ -117,27 +117,39 @@ nav {
 }
 
 .mainContent {
-    height: 450px;
+    height: 550px;
     width: 100%;
 
     background-color: #24294C;
     display: flex;
     flex-flow: row;
+    position: relative;
 }
 
 .phone {
-    height: 90%;
-    width: 200px;
+    height: 80%;
+    /* width: 200px; */
+    width: 16%;
 
     background-color: #007af3;
-    position: relative;
+    position: absolute;
     top: -80px;
+}
+
+.phone img {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    right: -55px;
+    bottom: 100px;
 }
 
 .tasks {
     color: white;
     height: 80%;
-    padding-top: 30px;
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 240px;
 }
 
 .tasks ul {
@@ -164,4 +176,32 @@ nav {
     background-repeat: no-repeat;
     background-size: contain;
     padding-right: 10px;
+}
+
+
+.mainContent #rightPic {
+    width: 20%;
+
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    mix-blend-mode: luminosity;
+
+}
+
+.blendBox {
+    background-color: #24294C;
+    width: 20%;
+    height: 264.458px;
+    position: absolute;
+
+    right: 0px;
+    bottom: -70px;
+}
+
+.testamonial {
+    height: 600px;
+    width: 100%;
+
+    background-color: #007af3;
 }
