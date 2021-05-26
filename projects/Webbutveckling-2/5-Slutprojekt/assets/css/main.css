@@ -208,35 +208,38 @@ nav {
     flex-flow: row;
 
     align-items: center;
+    justify-content: center;
 }
 
 .cardParent {
     height: 100%;
-    width: 100%;
-
-    position: absolute;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: hidden;
+    /* background-color: red; */
 }
 
 .leftArrow {
     height: 20px;
     width: 20px;
     background-color: white;
+    position: absolute;
+    left: 0;
 }
 
 .rightArrow {
     height: 20px;
     width: 20px;
     background-color: white;
+    position: absolute;
+    right: 0;
 }
 
 .profileParent {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    position: absolute;
+    left: -1000px;
 
 
     /* justify-content: center;
@@ -245,13 +248,15 @@ nav {
 }
 
 .card {
-    height: 70%;
+    height: 400px;
     width: 250px;
     display: inline-block;
     margin: 120px 20px 20px 20px;
     
+    /* position: absolute; */
     background-color: #006fdc;
     border-radius: 30px;
+
 }
 
 .cardContainer {
@@ -272,7 +277,9 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 
+    border: solid 8px #007af3;
     border-radius: 100%;
+
 
     position: absolute;
     top: -50px;
