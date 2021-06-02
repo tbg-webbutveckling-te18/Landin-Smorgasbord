@@ -103,6 +103,17 @@ nav {
     color: #007af3;
 }
 
+.videoText::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/Icon\ awesome-video.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+
 .heroSectionRight {
     height: 100%;
     width: 50%;
@@ -186,6 +197,7 @@ nav {
     bottom: -70px;
     right: 0px;
     mix-blend-mode: luminosity;
+    z-index: 100;
 
 }
 
@@ -197,6 +209,7 @@ nav {
 
     right: 0px;
     bottom: -70px;
+    z-index: 99;
 }
 
 .testamonial {
@@ -209,6 +222,7 @@ nav {
 
     align-items: center;
     justify-content: center;
+    background-color: #0048F3;
 }
 
 .cardParent {
@@ -218,28 +232,45 @@ nav {
     position: relative;
     white-space: nowrap;
     overflow-x: hidden;
-    /* background-color: red; */
+    background-color: #007af3
 }
 
 .leftArrow {
     height: 20px;
-    width: 20px;
-    background-color: white;
+    width: auto;
+    /* background-color: white; */
     position: absolute;
     left: 0;
 }
 
+.leftArrow i {
+    font-size: 25px;
+}
+
+.leftArrow i:hover {
+    cursor: pointer;
+}
+
 .rightArrow {
     height: 20px;
-    width: 20px;
-    background-color: white;
+    width: auto;
+    /* background-color: white; */
     position: absolute;
     right: 0;
+}
+
+.rightArrow i {
+    font-size: 25px;
+}
+
+.rightArrow i:hover {
+    cursor: pointer;
 }
 
 .profileParent {
     position: absolute;
     left: -1000px;
+    transition: all 0.4s;
 
 
     /* justify-content: center;
