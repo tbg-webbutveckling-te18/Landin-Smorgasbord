@@ -114,6 +114,10 @@ nav {
     margin-left: 10px;
 }
 
+.videoText {
+    display: flex;
+}
+
 .heroSectionRight {
     height: 100%;
     width: 50%;
